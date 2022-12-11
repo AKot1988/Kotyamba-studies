@@ -1,0 +1,146 @@
+:root {
+    /* fonts */
+    --main--font-weight: bold;
+    --main--font: Arial, Helvetica, sans-serif;
+    --main--font-size: 1.6rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1280px;
+    height: auto;
+    margin: auto;
+}
+
+.parent_element{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: blue;
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+
+    margin-bottom: 200px;
+
+}
+
+.Child_element1 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(132, 0, 255);
+    position: absolute;
+    top: 700px;
+
+    width: 100%;
+    height: 100px;
+
+}
+
+
+.Child_element2 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(226, 43, 189);
+    position: absolute;
+    top: -100px;
+
+
+    width: 100%;
+    height: 100px;
+}
+
+
+.Child_element3 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(208, 226, 43);
+    position: absolute;
+    top: -100px;
+    left: 1000px;
+
+    width: 200px;
+    height: calc(100% + 200px);
+}
+
+
+
+/* -------ralative------------ */
+.second_variant {
+    position: absolute;
+    top: 1500px;
+
+}
+
+.parent_element1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: blue;
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 200px;
+
+}
+
+.Child_element11 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(132, 0, 255);
+    position: relative;
+    top: 670px;
+    width: 100%;
+    height: 100px;
+
+}
+
+
+.Child_element21 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(226, 43, 189);
+    position: relative;
+    top: -230px;
+    width: 100%;
+    height: 100px;
+}
+
+
+.Child_element31 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: var(--main--font-size);
+    background-color: rgb(208, 226, 43);
+    position: relative;
+    top: -330px;
+    left: 1000px;
+    width: 200px;
+    height: calc(100% + 200px);
+}
+
+.owerflow {
+    width: 300px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 5px;
+    position: relative;
+    top: 2400px;
+    margin: 100px;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: clip;
+    overflow: hidden;
+
+}
