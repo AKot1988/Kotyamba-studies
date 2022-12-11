@@ -1,0 +1,23 @@
+.Child_element1 {
+    width: 100px;
+    height: 50px;
+    animation: pulse 5s infinite;
+
+    @keyframes pulse {
+        0% {
+            top: 0px;
+            bacgraund-color: red;
+        }
+
+        50% {
+            top: 30px;
+            bacgraund-color: yellow;
+        }
+
+        100% {
+            top: 100px;
+            bacgraund-color: teal;
+        }
+    }
+
+}

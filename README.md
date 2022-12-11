@@ -1,2 +1,0 @@
-# Kotyamba-studies
-Collected information

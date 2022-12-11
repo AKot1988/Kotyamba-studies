@@ -1,0 +1,478 @@
+:root {
+
+    /* colors */
+    --main-h-color: #0844a4;
+    --main--text-color: #606060;
+
+    /* fonts */
+    --main--font-weight: bold;
+    --main--font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    color: var(--main--text-color);
+    font-family: var(--main--font);
+    font-weight: var(--main--font-weight);
+}
+
+body {
+    /* width: 1280px;
+    height: 750px; */
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+
+
+
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.intro_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/pexels-photo-3805983.jpeg);
+    background-size: cover;
+}
+
+.intro_container {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 50%;
+    border: 4px solid var(--main-h-color);
+}
+
+h1 {
+    color: var(--main-h-color);
+    font-size: 80px;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-h-color);
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.link_decoration {
+    color: white;
+}
+
+
+/* ---------------------------------nav_bar--------------------------------------- */
+.nav_section {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.nav_items_links {
+    position: relative;
+    text-decoration: none;
+    color: var(--main-h-color);
+    font-size: 16px;
+    transition: font-size 0.4s ease-out;
+}
+
+.nav_items_links:hover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main-h-color);
+    font-size: 20px;
+    text-shadow: 2px 1px 15px #000;
+    transition: 0.4s ease-out;
+}
+
+.main_list_items {
+    color: var(--main-h-color);
+    font-weight: var(--main--font-weight);
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+}
+
+
+
+.nav_items {
+    color: var(--main-h-color);
+    list-style-type: none;
+}
+
+.nav_items:last-child {
+    margin-right: 50px;
+}
+
+.nav_items_spacer {
+    padding: 0 20px 0 20px;
+}
+
+/* ---------------------------------nav_ends--------------------------------------- */
+
+.about_me_section,
+.experience_section,
+.interest_section {
+    width: auto;
+    height: 100%;
+    /* margin: 0 auto; */
+    border-bottom: 2px solid var(--main--text-color);
+}
+
+.get_in_touch_section {
+    width: auto;
+    height: 100%;
+}
+
+
+
+/* ---------------------------------about_me--------------------------------------- */
+.about_me_main_container {
+    display: flex;
+}
+
+.user_photo {
+    padding-left: 50px;
+    width: 200px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.jump_to_top {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+
+}
+
+.jump_to_top a {
+    color: var(--main-h-color);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.aims {
+    display: flex;
+}
+
+.my_aims_items {
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icon {
+    display: inline;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    fill: var(--main--text-color);
+
+}
+
+.skills {
+    color: var(--main-h-color);
+    font: var(--main--font);
+    font-weight: var(--main--font-weight);
+    font-size: 25px;
+}
+
+.skills_description {
+    width: 20vw;
+    padding: 10px;
+}
+
+/* ---------------------------------about_me_ends--------------------------------------- */
+
+
+
+
+
+
+/* ---------------------------------experience--------------------------------------- */
+
+
+#exp_wrapper {
+    margin: 0 30px;
+    display: grid;
+    width: inherit;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 50px;
+    /* border: 1px solid var(--main--text-color); */
+
+}
+
+
+#exp_description1 {
+    border: 1px solid var(--main--text-color);
+}
+
+#exp_description2 {
+    background: conic-gradient(red 120deg, black 120deg 120.5deg, orange 120.5deg 159.5deg, black 159.5deg 160deg,green 160deg 249.5deg, black 249.5deg 250deg, blue 250deg 359.5deg,  black 359.5deg 360deg);
+    border-radius: 200px;
+    border: 1px solid var(--main--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.exp_deccription,
+.exp_deccription {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    align-items: center;
+    color: var(--main--text-color);
+    margin: 20px 100px 20px 20px;
+
+}
+
+.white_spot_histogram {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+#exp_description3 {
+    border: 1px solid var(--main--text-color);
+}
+
+.histogram_legend {
+    width: 100wv;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.histogram_legend_item_html5,
+.histogram_legend_item_php,
+.histogram_legend_item_js,
+.histogram_legend_item_css3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.histogram_legend_item_html5 {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.histogram_legend_item_php {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.histogram_legend_item_js {
+    background-color: green;
+    border: 2px solid black;
+}
+
+.histogram_legend_item_css3 {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+/* ---------------------------------experience_ends--------------------------------------- */
+
+
+
+
+
+/* ---------------------------------Interest's--------------------------------------- */
+.first_hobby,
+.second_hobby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_hobby_image {
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/20220128_130723.jpg);
+    background-size: cover;
+    margin: 20px 50px 20px 20px;
+}
+
+.second_hobby_image {
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/DJI_0765.JPG);
+    background-size: cover;
+}
+
+.first_hobby_description,
+.second_hobby_description {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: var(--main--text-color);
+    margin: 20px 100px 20px 20px;
+    width: 600px;
+    height: 300px;
+}
+
+/* ---------------------------------Interest's_ends--------------------------------------- */
+
+
+
+
+
+/* ---------------------------------Get in touch--------------------------------------- */
+
+
+.get_touch_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+    justify-content: start;
+}
+
+.motivate_employer {
+    margin: 30px 0px 30px 0px;
+}
+
+.feedback_inputs {
+    height: 100%;
+
+}
+
+.input_message {
+    border: 3px solid var(--main-h-color);
+    height: 25%;
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+}
+
+.employer__contact__information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.email_info {
+    border: 3px solid var(--main-h-color);
+    height: 24px;
+}
+
+.full_name {
+    border: 3px solid var(--main-h-color);
+    height: 24px;
+}
+
+.button {
+    height: 32px;
+    width: 100px;
+    background-color: var(--main-h-color);
+    border: 2px solid var(--main--text-color);
+    color: white;
+    cursor: pointer
+}
+
+.button:hover {
+    height: 32px;
+    width: 100px;
+    background-color: var(--main-h-color);
+    border: 2px solid var(--main--text-color);
+    box-shadow: 5px 5px 10px #606060;
+    color: white;
+    cursor: pointer
+}
+
+.button:active {
+    height: 32px;
+    width: 100px;
+    background-color: var(--main--text-color);
+    border: 2px solid var(--main--text-color);
+    box-shadow: 5px 5px 10px #606060;
+    color: rgb(255, 255, 255);
+    cursor: pointer
+}
+
+/* ------------footer------------------- */
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer_social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_footer {
+    display: block;
+    margin: 10px 10px 30px 10px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    fill: var(--main--text-color);
+}
+
+
+.copyrightcolor {
+    color: var(--main--text-color);
+    margin-right: 10px;
+}
+
+.company_name {
+    color: var(--main-h-color);
+}
+
+
+
+
+
+
+/* ---------------------------------Get in touch_ends--------------------------------------- */
