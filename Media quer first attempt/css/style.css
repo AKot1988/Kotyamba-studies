@@ -30,6 +30,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4170.JPG);
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -40,6 +41,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4318.JPG);
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -50,6 +52,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4615.JPG);
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -61,6 +64,7 @@
     grid-template-rows: minmax(200px, 300px);
     background-image: url(../img/DSC_4755.JPG);
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -81,6 +85,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4889.JPG);
     background-size: cover;
+    background-position: top;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -105,49 +110,37 @@
     height: 5vh;
     border-radius: var(--border-radius);
     border: var(--border__button);
-    color: transparent;
 
     /* background-image: url(../icons/15660504116370831126113.svg);
     background-repeat: no-repeat; */
     margin: 10px;
     font-size: 1,5em;
     overflow: hidden;
-    animation: fly 2s linear infinite;
+    animation: fly 1s linear infinite;
 
 }
 
     
 @keyframes fly {
     0% {
-    transform: rotate(0deg);
-    
+        transform: rotate(0deg);
     }
     5% {
-    transform: rotate(10deg);
+        transform: rotate(10deg);
     }
     10% {
-    transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
     15% {
-    transform: rotate(10deg);
+        transform: rotate(10deg);
     }
     20% {
-    transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
     25% {
-    transform: rotate(0deg);
-    background-image: linear-gradient(217deg, rgb(0, 17, 255), rgb(18, 114, 138) 70.71%),
-    linear-gradient(127deg, rgb(3, 3, 113), rgb(0, 94, 137) 70.71%),
-    linear-gradient(336deg, rgb(21, 140, 151), rgb(0, 225, 255) 70.71%);
-    }
-
-    100% {
-        background-image: linear-gradient(217deg, rgb(0, 17, 255), rgb(18, 114, 138) 70.71%),
-    linear-gradient(127deg, rgb(3, 3, 113), rgb(0, 94, 137) 70.71%),
-    linear-gradient(336deg, rgb(21, 140, 151), rgb(0, 225, 255) 70.71%);
+        transform: rotate(0deg);
     }
 }
-
 
 @media screen and (max-width: 765px) {
     .main-container {
@@ -165,7 +158,6 @@
     .child__container4,
     .child__container4 {
         background-position: center;
-
     }
     
     .child__container4 {
