@@ -4,8 +4,26 @@
     --border-radius: 10px;
 }
 
+body::-webkit-scrollbar {
+    width: 0.45em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: mediumaquamarine;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: teal;
+  }
+  
+  * {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: var(--black);
+  }
+
 .body {
-    max-width: 1280px;
+    max-width: 100vw;
     margin: auto;
 
 }
@@ -18,7 +36,10 @@
     grid-gap: 20px;
     padding: 10px;
 
-    background-image: url(../img/DSC_4106.JPG), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image:  linear-gradient(to top,
+        rgba(33, 33, 33, 0.5),
+        rgba(33, 33, 33, 0.5)
+      ), url(../img/DSC_4106.JPG);
     background-size: cover;
     background-position: fixed;
 
@@ -41,7 +62,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4318.JPG);
     background-size: cover;
-    background-position: center;
+    background-position:  50% 10%;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -64,7 +85,7 @@
     grid-template-rows: minmax(200px, 300px);
     background-image: url(../img/DSC_4755.JPG);
     background-size: cover;
-    background-position: center;
+    background-position: 25% 30%;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -85,7 +106,7 @@
     border-radius: var(--border-radius);
     background-image: url(../img/DSC_4889.JPG);
     background-size: cover;
-    background-position: top;
+    background-position: 40% 20%;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -185,6 +206,7 @@
         border-radius: var(--border-radius);
         border: var(--border__button);
         margin: 20px;
+        color: var(--border__main);
     }
     .button__let__flying:hover {
         width: 60px;
