@@ -94,7 +94,7 @@
 
 .button__let__flying {
     width: 10vw;
-    height: 5vh;
+    height: 10vh;
     cursor: pointer;
     border-radius: var(--border-radius);
     border: var(--border__button);
@@ -107,7 +107,7 @@
 
 .button__let__flying:hover {
     width: 10vw;
-    height: 5vh;
+    height: 10vh;
     border-radius: var(--border-radius);
     border: var(--border__button);
 
@@ -181,9 +181,23 @@
 
     .button__let__flying {
         min-width: 50vw;
-        max-height: 10vh;
+        height: 20vh;
         border-radius: var(--border-radius);
         border: var(--border__button);
         margin: 20px;
+    }
+    .button__let__flying:hover {
+        width: 50vw;
+        height: 20vh;
+        border-radius: var(--border-radius);
+        border: var(--border__button);
+    
+        /* background-image: url(../icons/15660504116370831126113.svg);
+        background-repeat: no-repeat; */
+        margin: 10px;
+        font-size: 1,5em;
+        overflow: hidden;
+        animation: fly 2s linear infinite;
+    
     }
 }
