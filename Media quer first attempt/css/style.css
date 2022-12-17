@@ -194,7 +194,7 @@
     
         /* background-image: url(../icons/15660504116370831126113.svg);
         background-repeat: no-repeat; */
-        /* margin: 10px; */
+        margin: 20px;
         font-size: 1,5em;
         overflow: hidden;
         animation: fly 2s linear infinite;
