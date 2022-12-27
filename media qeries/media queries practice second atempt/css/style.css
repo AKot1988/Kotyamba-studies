@@ -1,0 +1,252 @@
+.container {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    padding: 50px;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 150px;
+    grid-gap: 50px;
+    border: 8px solid teal;
+    padding: 5px 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.feature__card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.first__card {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.second__card{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.third__card{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.fourth__card {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+
+}
+
+.fiveth__card {
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
+
+}
+
+.feature__number {
+
+}
+
+.feature__icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    fill: brown;
+}
+
+.card__info {
+
+}
+
+.feature__icon__first__icon,
+.feature__icon__second__icon,
+.feature__icon__third__icon,
+.feature__icon__fourth__icon,
+.feature__icon__fiveth__icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(13, 0, 255);
+
+}
+
+.feature__icon {
+    fill: rgb(255, 0, 162);
+}
+
+@media screen and (min-width: 720px) and (max-width: 1365px) {
+    .header {
+        width: 50vw;
+        height: 70vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        
+    }
+
+    .first__card{
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .second__card{
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .third__card{
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .fourth__card{
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .fiveth__card{
+        grid-column: 1 / span 2;
+        grid-row: 3 / span 1;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .header {
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 100px;
+        grid-gap: 50px;
+        
+    }
+
+    .first__card {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .second__card {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .third__card {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+
+    .fourth__card {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+
+    .fiveth__card {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .header {
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 100px;
+        grid-gap: 50px;
+        
+    }
+
+    .first__card {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .second__card {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .third__card {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+
+    .fourth__card {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+
+    .fiveth__card {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+    }
+}
+
+
+@media screen and (max-width: 719px) and (orientation: landscape) {
+    .header {
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-auto-rows: 100px;
+        grid-gap: 50px;
+        
+    }
+
+    .first__card {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .second__card {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .third__card {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .fourth__card {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .fiveth__card {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+    }
+}
+
